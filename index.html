@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
+</head>
+<body>
+	<h1>Tic Tac Toe</h1>
+	<hr><br><br>
+<table>
+  <tr>
+    <td id="one" onclick="game(this);"></td>
+    <td id="two" onclick="game(this);" class="vert"></td>
+    <td id="three" onclick="game(this);"></td>
+  </tr>
+  <tr>
+    <td id="four" onclick="game(this);" class="hori"></td>
+    <td onclick="game(this);" class="vert hori" id="five"></td>
+    <td onclick="game(this);" class="hori" id="six"></td>
+  </tr>
+  <tr>
+    <td onclick="game(this);" id="seven"></td>
+    <td onclick="game(this);" class="vert" id="eight"></td>
+    <td onclick="game(this);" id="nine"></td>
+  </tr>
+</table>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

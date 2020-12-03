@@ -1,0 +1,33 @@
+body {
+	background-color: #FA8072;
+	font-family: Nerko One;
+	font-size: 1.5em;
+}
+
+h1 {
+  text-align: center;
+}
+td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+table {
+  margin: 5px auto;
+}
+.vert {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+.hori {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+table {
+	background-color: #1E90FF;
+	border-radius: 30px;
+	border: 2px dashed black;
+	color: white;
+	font-size: 2em;
+}
